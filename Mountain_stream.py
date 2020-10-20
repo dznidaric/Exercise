@@ -2,7 +2,17 @@ import sys
 import math
 import numpy as np
 
-C = int(input("the number of points closest to the origin that we need to print: "))
+
+while True:
+    try:
+        C = int(input("\nthe number of points closest to the origin that we need to print: "))
+
+        if (C < 1 or C > 106):
+            raise ValueError
+        break
+    except ValueError:
+        print("\nInvalid integer. The number must be in the range of 1 and 106.")
+
 zpoint = np.array([0, 0], ndmin=2)
 points = []
 min_list = []
@@ -17,9 +27,21 @@ def menu():
     option = int(input())
 
     if(option == 1):
-        X, Y = map(int, input().split())
+        while True:
+            try:
+                X, Y = input("\nEnter two points here: ").split()
+                X, Y = [int(X), int(Y)]         #map(int, input().split())
+                
+        
+                if ((X < -1000 or X > 1000) or (Y < -1000 or Y > 1000)):
+                    raise ValueError
+                break
+            except ValueError:
+                print("Invalid integer. The number must be in the range of -1000 and 1000.")
         points.append((X, Y))
         menu()
+
+        
 
     
     elif(option == 2):
