@@ -256,3 +256,48 @@ Example output
 0 -1
 
 1 1
+
+## 3. Getting them CMEs
+
+### Task
+
+Dr. House needs to collect a certain amount of CME credits per year in order to extend his
+Medical licence.
+After watching a webinar and completing the post quiz, he is rewarded a given number of CME
+credits. However, Dr. House has limited time to collect the CMEs and he needs to optimize it in
+order to get the maximum number of credits.
+
+
+**Input**
+
+First line has integer T, the time available to do the certification. Next line provides number N,
+the number of webinars that are available on VuMedi platform to get CME credits for. The
+following line contains N integers that represent the time needed to certify for a given webinar
+and the last line of input represents the number of CME credits awarded for each.
+
+
+**Output**
+
+First line should output the maximum number of CME credits Dr. House can obtain in time T.
+Each next line outputs a webinar duration with the corresponding number of CMEs that Dr.
+House has decided to obtain.
+
+
+Example input
+
+7
+
+4
+
+2 3 4 5
+
+3 4 5 5
+
+
+Example output
+
+9
+
+3 4
+
+4 5
