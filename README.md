@@ -262,7 +262,7 @@ Example output
 ### Task
 
 Dr. House needs to collect a certain amount of CME credits per year in order to extend his
-Medical licence. He has realised that VuMedi is a great platform that provides CME certification.
+Medical licence.
 After watching a webinar and completing the post quiz, he is rewarded a given number of CME
 credits. However, Dr. House has limited time to collect the CMEs and he needs to optimize it in
 order to get the maximum number of credits.
@@ -295,6 +295,7 @@ Example input
 
 
 Example output
+
 9
 
 3 4
