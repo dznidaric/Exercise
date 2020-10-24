@@ -271,7 +271,7 @@ order to get the maximum number of credits.
 **Input**
 
 First line has integer T, the time available to do the certification. Next line provides number N,
-the number of webinars that are available on VuMedi platform to get CME credits for. The
+the number of webinars that are available on platform to get CME credits for. The
 following line contains N integers that represent the time needed to certify for a given webinar
 and the last line of input represents the number of CME credits awarded for each.
 
